@@ -67,7 +67,7 @@ GET         | /reference/v1/categories                      | easyship.categorie
 
 ## Credits
 
-This project was forked from [stripe-node](https://github.com/stripe/stripe-node).
+This project was created from [stripe-node](https://github.com/stripe/stripe-node).
 
 ## Documentation
 
