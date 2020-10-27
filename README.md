@@ -2,7 +2,7 @@
 [![npm version](https://badge.fury.io/js/easyship.svg)](https://badge.fury.io/js/easyship)
 [![Build Status](https://travis-ci.org/dplewis/easyship-node.svg?branch=add-travis-ci)](https://travis-ci.org/dplewis/easyship-node)
 
-You will need to [register for a Easyship account](https://easyship.com/) to use the Easyship API. It's free to sign up, free to use the API. Only pay to print a live label, test labels are free.
+You will need to [register for a Easyship account][easyship] to use the Easyship API. It's free to sign up, free to use the API. Only pay to print a live label, test labels are free.
 
 ## Installation:
 You can install this package by running the following command:
@@ -13,11 +13,6 @@ You can install this package by running the following command:
 ## Usage:
 
 Initialize your `easyship` instance using your `API Access Token` provided to you on the `API` page in the Easyship Dashboard.
-
-```js
-  const easyship = require('easyship')('<ACCESS_TOKEN>');
-```
-The snippet below demonstrates how to create rate objects. Check (examples.js) for more detailed examples.
 
 ```js
   const easyship = require('easyship')('<ACCESS_TOKEN>');
@@ -45,7 +40,7 @@ The snippet below demonstrates how to create rate objects. Check (examples.js) f
 
 ## Method Overview
 
-## [Shipping API](https://developers.easyship.com/reference)
+## [Shipping API][api-reference]
 
 HTTP Method | Endpoint                                      | Methods
 ----------- | --------------------------------------------- | ----------------------------
@@ -65,10 +60,17 @@ GET         | /track/v1/status                              | easyship.track.sta
 GET         | /track/v1/checkpoints                         | easyship.track.checkpoints()
 GET         | /reference/v1/categories                      | easyship.categories.list()
 
+Check [example.js][example] for more detail.
+
 ## Credits
 
-This project was created from [stripe-node](https://github.com/stripe/stripe-node).
+This project was created from [stripe-node][stripe].
 
 ## Documentation
 
-Please see [https://developers.easyship.com/reference](https://developers.easyship.com/reference) for up-to-date documentation.
+Please see [https://developers.easyship.com/reference][api-reference] documentation.
+
+[api-reference]: https://developers.easyship.com/reference
+[easyship]: https://easyship.com/
+[example]: https://github.com/dplewis/easyship-node/blob/master/example.js
+[stripe]: https://github.com/stripe/stripe-node
