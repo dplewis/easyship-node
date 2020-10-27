@@ -1,0 +1,40 @@
+{
+  "name": "easyship",
+  "version": "0.0.1",
+  "description": "A node client for Easyship",
+  "homepage": "https://github.com/dplewis/easyship-node",
+  "keywords": [
+    "api",
+    "ups",
+    "usps",
+    "fedex",
+    "label",
+    "shipping",
+    "tracking",
+    "rates"
+  ],
+  "author": "Diamond Lewis <findlewis@gmail.com> (https://github.com/dplewis)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dplewis/easyship-node"
+  },
+  "bugs:": "https://github.com/dplewis/easyship-node",
+  "engines": {
+    "node": ">= 8"
+  },
+  "main": "lib/easyship.js",
+  "devDependencies": {
+    "chai": "1.10.0",
+    "chai-as-promised": "4.1.1",
+    "eslint": "^7.12.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "2.1.0"
+  },
+  "scripts": {
+    "example": "node example.js",
+    "lint": "eslint --cache lib/ test/ ./example.js",
+    "lint:fix": "eslint --fix --cache lib/ test/ ./example.js",
+    "test": "mocha"
+  }
+}

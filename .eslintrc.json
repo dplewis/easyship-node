@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2020": true
+  },
+  "extends": [
+    "airbnb-base"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 11
+  },
+  "globals": {
+    "afterEach": true,
+    "describe": true,
+    "it": true
+  },
+  "rules": {
+    "camelcase": "off",
+    "eol-last": 2,
+    "func-names": "off",
+    "global-require": "off",
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "unix"],
+    "no-cond-assign": "off",
+    "no-console": 0,
+    "no-continue": "off",
+    "no-loop-func": "off",
+    "no-multiple-empty-lines": 1,
+    "no-multi-assign": "off",
+    "no-restricted-syntax": "off",
+    "no-trailing-spaces": 2,
+    "no-underscore-dangle": "off",
+    "no-use-before-define": "off",
+    "no-useless-escape": "off",
+    "max-classes-per-file": "off",
+    "max-len": "off",
+    "object-shorthand": "off",
+    "prefer-const": "error",
+    "require-atomic-updates": "off",
+    "space-in-parens": ["error", "never"],
+    "space-infix-ops": "error"
+  }
+}
