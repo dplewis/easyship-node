@@ -12,6 +12,7 @@
   },
   "globals": {
     "afterEach": true,
+    "before": true,
     "describe": true,
     "it": true
   },
@@ -28,6 +29,7 @@
     "no-loop-func": "off",
     "no-multiple-empty-lines": 1,
     "no-multi-assign": "off",
+    "no-param-reassign": "off",
     "no-restricted-syntax": "off",
     "no-trailing-spaces": 2,
     "no-underscore-dangle": "off",
