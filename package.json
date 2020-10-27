@@ -1,6 +1,6 @@
 {
   "name": "easyship",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node client for Easyship",
   "homepage": "https://github.com/dplewis/easyship-node",
   "keywords": [
