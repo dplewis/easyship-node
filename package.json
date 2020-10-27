@@ -30,6 +30,7 @@
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-plugin-import": "2.22.1",
     "mocha": "2.1.0",
+    "nock": "13.0.4",
     "nyc": "15.1.0"
   },
   "scripts": {
@@ -37,6 +38,6 @@
     "example": "node example.js",
     "lint": "eslint --cache lib/ test/ ./example.js",
     "lint:fix": "eslint --fix --cache lib/ test/ ./example.js",
-    "test": "nyc --reporter=lcov mocha"
+    "test": "nyc --reporter=lcov mocha  --timeout 10000"
   }
 }

@@ -3,7 +3,7 @@ require('chai');
 
 const utils = module.exports = {
   getUserEasyshipKey() {
-    return process.env.EASYSHIP_TEST_API_KEY || ('unittest');
+    return 'unittest';
   },
 
   getSpyableEasyship(token) {

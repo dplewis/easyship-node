@@ -11,6 +11,7 @@
     "ecmaVersion": 11
   },
   "globals": {
+    "after": true,
     "afterEach": true,
     "before": true,
     "describe": true,
