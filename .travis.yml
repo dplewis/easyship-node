@@ -21,8 +21,10 @@ jobs:
     after_script:
     - bash <(curl -s https://codecov.io/bash)
   - stage: release
+    env:
     before_script: skip
     after_script: skip
+    deploy:
     - provider: npm
       skip_cleanup: true
       email:
