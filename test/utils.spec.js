@@ -16,6 +16,21 @@ describe('utils', () => {
         template({ foo: '', baz: '' }),
       ).to.equal('/some/url//?ok=1');
     });
+
+    it('Interpolates special values', () => {
+      const rc = {
+        '\n': '\\n',
+        '"': '\\"',
+        '\u2028': '\\u2028',
+        '\u2029': '\\u2029',
+      };
+      const unescaped = Object.keys(rc).join();
+      const template = utils.makeURLInterpolator(`/some/url/{foo}/{baz}/${unescaped}?ok=1`);
+
+      expect(
+        template({ foo: 1, baz: 2 }),
+      ).to.equal('/some/url/1/2/\\n,\\",\\u2028,\\u2029?ok=1');
+    });
   });
 
   describe('stringifyRequestData', () => {
