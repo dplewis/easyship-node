@@ -38,6 +38,6 @@
     "example": "node example.js",
     "lint": "eslint --cache lib/ test/ ./example.js",
     "lint:fix": "eslint --fix --cache lib/ test/ ./example.js",
-    "test": "nyc --reporter=lcov mocha  --timeout 10000"
+    "test": "nyc mocha  --timeout 10000"
   }
 }
