@@ -71,6 +71,10 @@ This project was created from [stripe-node][stripe].
 
 Please see [https://developers.easyship.com/reference][api-reference] documentation.
 
+## Sponsor
+
+<a href="https://www.buymeacoffee.com/dplewis" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
 [api-reference]: https://developers.easyship.com/reference
 [easyship]: https://easyship.com/
 [example]: https://github.com/dplewis/easyship-node/blob/master/example.js
