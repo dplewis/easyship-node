@@ -1,6 +1,7 @@
 # Easyship Node.js API wrapper
 [![npm version](https://badge.fury.io/js/easyship.svg)](https://badge.fury.io/js/easyship)
-[![Build Status](https://travis-ci.org/dplewis/easyship-node.svg?branch=add-travis-ci)](https://travis-ci.org/dplewis/easyship-node)
+[![codecov](https://codecov.io/gh/dplewis/easyship-node/branch/master/graph/badge.svg?token=2pNFBkoOnu)](https://codecov.io/gh/dplewis/easyship-node?branch=master)
+[![Build Status](https://travis-ci.org/dplewis/easyship-node.svg?branch=master)](https://travis-ci.org/dplewis/easyship-node)
 
 You will need to [register for a Easyship account][easyship] to use the Easyship API. It's free to sign up, free to use the API. Only pay to print a live label, test labels are free.
 
